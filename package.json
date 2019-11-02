@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ujjawaljaiswal2017/task-manager/issues"
   },
-  "homepage": "https://github.com/ujjawaljaiswal2017/task-manager#readme"
+  "homepage": "https://github.com/ujjawaljaiswal2017/task-manager#readme",
+  "dependencies": {
+    "mongodb": "^3.3.3"
+  }
 }
