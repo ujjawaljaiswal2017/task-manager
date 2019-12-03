@@ -12,4 +12,12 @@ MongoClient.connect(connectionURL , {useNewUrlParser : true , useUnifiedTopology
     }    
 
     const db = client.db(databaseName)
+
+    db.collection('users').findOne({name : 'Nish'},(error,user)=>{
+        if(error){
+            return console.log('Error in finding')
+        }
+
+        console.log(user)
+    })
 })
